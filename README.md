@@ -2,14 +2,14 @@ Vocabulary Note
 
 This project uses several terms that are common in quantitative finance and machine learning:
 
-Time series — A sequence of data points indexed in chronological order, such as daily stock prices.
-Technical indicators — Calculated signals (RSI, MACD, moving averages…) used to analyse market behaviour.
-Return — The percentage change in price from one day to the next.
-Volatility — A measure of how much the price fluctuates over time.
-Momentum — A measure of recent price acceleration or deceleration.
-Binary classification — A prediction task with only two possible outcomes (here: up or down).
-Baseline model — A simple model used as a reference to evaluate future improvements.
-Random Forest — A machine learning algorithm based on multiple decision trees, used here to predict price direction.
+- Time series — A sequence of data points indexed in chronological order, such as daily stock prices.
+- Technical indicators — Calculated signals (RSI, MACD, moving averages…) used to analyse market behaviour.
+- Return — The percentage change in price from one day to the next.
+- Volatility — A measure of how much the price fluctuates over time.
+- Momentum — A measure of recent price acceleration or deceleration.
+- Binary classification — A prediction task with only two possible outcomes (here: up or down).
+- Baseline model — A simple model used as a reference to evaluate future improvements.
+- Random Forest — A machine learning algorithm based on multiple decision trees, used here to predict price direction.
 
 This vocabulary provides the foundation needed to understand the techniques and modelling choices presented throughout the project.
 
