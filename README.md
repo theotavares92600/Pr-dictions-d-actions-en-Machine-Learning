@@ -19,3 +19,9 @@ The extraction process begins by calling the yf.download() function with a speci
 This results in a clean and structured table with one row per trading day and six essential variables. This dataset serves as the basis for all subsequent steps of the project, including feature engineering, time-series preprocessing and model training.
 
 
+Data Analysis and Strategy Setup - STEP 2 
+
+This first stage focuses on understanding the financial dataset and establishing the foundations of the modelling strategy. After extracting historical market data for AAPL, we begin with an exploratory analysis to observe price evolution, volatility behaviour, volume patterns and the overall structure of the time series. This initial inspection highlights the stock’s dynamics and reveals elements such as trends, market regimes and seasonality.
+
+Based on this analysis, we define a modelling approach centred on predicting short-term price direction rather than exact price levels. The dataset is then enriched with technical indicators commonly used in trading—such as returns, momentum, moving averages, RSI, MACD and volatility—to capture market behaviour more precisely. These engineered features, combined with the temporal nature of the data, provide a solid foundation for the predictive modelling carried out in the next stages of the project.
+
