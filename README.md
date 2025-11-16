@@ -14,13 +14,7 @@ This project uses several terms that are common in quantitative finance and mach
 This vocabulary provides the foundation needed to understand the techniques and modelling choices presented throughout the project.
 
 This project applies Machine Learning techniques to financial time series with the goal of predicting short-term stock price movements.
-Using historical market data from AAPL (Apple), the notebook walks through the essential steps of a predictive modelling workflow:
--descriptive exploration of market data
--creation of technical indicators commonly used in trading
--preprocessing and preparation of time-series features
--definition of a binary classification problem (up/down prediction)
--training of a baseline model using a Random Forest Classifier
-evaluation of predictive performance and model stability
+Using historical market data from AAPL (Apple), the notebook walks through the essential steps of a predictive modelling workflow: descriptive exploration of market data, creation of technical indicators commonly used in trading, preprocessing and preparation of time-series features, definition of a binary classification problem (up/down prediction), training of a baseline model using a Random Forest Classifier, evaluation of predictive performance and model stability. 
 The objective is not to forecast exact prices but to capture directional trends, providing a foundation that can be further extended with more advanced quantitative or machine learning methods.
 
 
@@ -38,5 +32,5 @@ Data Analysis and Strategy Setup - STEP 2
 
 This first stage focuses on understanding the financial dataset and establishing the foundations of the modelling strategy. After extracting historical market data for AAPL, we begin with an exploratory analysis to observe price evolution, volatility behaviour, volume patterns and the overall structure of the time series. This initial inspection highlights the stock’s dynamics and reveals elements such as trends, market regimes and seasonality.
 
-Based on this analysis, we define a modelling approach centred on predicting short-term price direction rather than exact price levels. The dataset is then enriched with technical indicators commonly used in trading—such as returns, momentum, moving averages, RSI, MACD and volatility—to capture market behaviour more precisely. These engineered features, combined with the temporal nature of the data, provide a solid foundation for the predictive modelling carried out in the next stages of the project.
+Based on this analysis, we define a modelling approach centred on predicting short-term price direction rather than exact price levels. The dataset is then enriched with technical indicators commonly used in trading, such as returns, momentum, moving averages, RSI, MACD and volatility—to capture market behaviour more precisely. These engineered features, combined with the temporal nature of the data, provide a solid foundation for the predictive modelling carried out in the next stages of the project.
 
