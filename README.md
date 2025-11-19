@@ -1,4 +1,4 @@
-#Vocabulary Note
+# Vocabulary Note
 
 This project uses several terms that are common in quantitative finance and machine learning:
 
@@ -11,6 +11,9 @@ This project uses several terms that are common in quantitative finance and mach
 - Baseline model — A simple model used as a reference to evaluate future improvements.
 - Random Forest — A machine learning algorithm based on multiple decision trees, used here to predict price direction.
 
+  
+# Overview
+
 This vocabulary provides the foundation needed to understand the techniques and modelling choices presented throughout the project.
 
 This project applies Machine Learning techniques to financial time series with the goal of predicting short-term stock price movements.
@@ -18,7 +21,7 @@ Using historical market data from AAPL (Apple), the notebook walks through the e
 The objective is not to forecast exact prices but to capture directional trends, providing a foundation that can be further extended with more advanced quantitative or machine learning methods.
 
 
-Data Extraction – Step 1
+# Data Extraction – Step 1
 
 The first step of the project consists in collecting real historical market data to build a reliable foundation for analysis and modelling.
 We use the yfinance library, which provides an easy interface to download financial time series directly from Yahoo Finance. The dataset used in this step corresponds to the stock AAPL (Apple), covering the period from 2020 to 2025.
@@ -28,7 +31,7 @@ The extraction process begins by calling the yf.download() function with a speci
 This results in a clean and structured table with one row per trading day and six essential variables. This dataset serves as the basis for all subsequent steps of the project, including feature engineering, time-series preprocessing and model training.
 
 
-Data Analysis and Strategy Setup - STEP 2 
+# Data Analysis and Strategy Setup - STEP 2 
 
 This first stage focuses on understanding the financial dataset and establishing the foundations of the modelling strategy. After extracting historical market data for AAPL, we begin with an exploratory analysis to observe price evolution, volatility behaviour, volume patterns and the overall structure of the time series. This initial inspection highlights the stock’s dynamics and reveals elements such as trends, market regimes and seasonality.
 
