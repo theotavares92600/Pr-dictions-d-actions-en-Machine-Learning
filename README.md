@@ -1,4 +1,4 @@
-Vocabulary Note
+#Vocabulary Note
 
 This project uses several terms that are common in quantitative finance and machine learning:
 
