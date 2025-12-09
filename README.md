@@ -59,7 +59,7 @@ This first stage focuses on understanding the financial dataset and establishing
 
 Based on this analysis, we define a modelling approach centred on predicting short-term price direction rather than exact price levels. The dataset is then enriched with technical indicators commonly used in trading, such as returns, momentum, moving averages, RSI, MACD and volatility—to capture market behaviour more precisely. These engineered features, combined with the temporal nature of the data, provide a solid foundation for the predictive modelling carried out in the next stages of the project
 
-### Data Analysis and Strategy Refinement – STEP 3
+# Data Analysis and Strategy Refinement – STEP 3
 
 The objective of this stage is to re-evaluate the initial modelling strategy and improve the overall structure of the project. Based on the results obtained in the previous steps, we revisit the feature engineering process,the modelling choices and the evaluation methodology in order to optimise predictive performance.
 
